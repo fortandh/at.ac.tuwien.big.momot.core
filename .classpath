@@ -8,8 +8,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/MOEAFramework-2.12"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/smart_office_example"/>
 	<classpathentry kind="lib" path="/smart_office_example/src-mine/experiment"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MOEAFramework"/>
+	<classpathentry kind="lib" path="/smart_office_example/lib/json-20200518.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
