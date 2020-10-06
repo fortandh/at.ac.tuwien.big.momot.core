@@ -211,7 +211,12 @@ public class TransformationSolution extends SearchSolution implements Comparable
       final EGraph searchGraph = MomotUtil.copy(getSourceGraph());
       for(final ITransformationVariable variable : getVariables()) {
          adapt(variable, searchGraph);
+         // just for experiment
          variable.execute(true);
+         // final boolean resultFlag = variable.execute(true);
+         // if(!resultFlag) {
+         // System.out.println("The variable execution is failed!");
+         // }
       }
       this.resultGraph = searchGraph;
       return resultGraph;
